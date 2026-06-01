@@ -373,7 +373,7 @@ function SectionLabel({ index, label }: { index: string; label: string }) {
   );
 }
 
-function Portfolio() {
+export function Portfolio() {
   return (
     <div className="relative min-h-screen text-foreground">
       {/* Global subtle neural background across the whole site */}
